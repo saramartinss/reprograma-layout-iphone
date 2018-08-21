@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+
+h1{
+    color:black;
+    font-family: sans-serif
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    height: 50px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#botoes{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+/* aqui nao tem fonte */
+.linkdecima{
+    color: black;
+    text-decoration: none;
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+
+button{
+    background-color: lightgray;
+    border: 1px solid white;
+}
+
+section{
+    margin: 30px auto;
+    display: flex;
+    width: 60vw;
+    background-color:green;
+}
+
+#segunda{
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+}
+
+p{
+    margin-left: 20px;
+    
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+
+#gatoo{
+    border-radius: 50%;
+}   
+
+#doe{
+    height: 50px;
+    position: absolute;
+    right: 500px;
+    top: 270px;
+}
+
+#sla{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    left: 30px;
+}
+
+#escrita{
+    position: absolute;
+    left: 50px;
+}

@@ -1,0 +1,39 @@
+.placar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: lightgray;
+  color: red;
+  font-family: sans-serif;
+  font-size: 80pt;
+}
+
+.controles{
+  border: 5px dotted red;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.controles button{
+  height: 100px;
+  width: 100px;
+  color: white;
+  background-color: red;
+  font-size: 20pt;
+  font-weight: bolder;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.controles button:hover{
+  color: black;
+}

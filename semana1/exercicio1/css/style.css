@@ -1,0 +1,19 @@
+/*seletor
+    propriedade: valor */
+
+
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: teal;
+        text-transform: uppercase;
+        font-weight: lighter;
+    }
+
+    h2{
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+p{
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}

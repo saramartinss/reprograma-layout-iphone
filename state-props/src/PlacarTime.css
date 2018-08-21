@@ -1,0 +1,30 @@
+.placartime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.placartime h1{
+    font-size: 40pt;
+}
+
+.placartime h1, .placartime h2{
+    margin: 0;
+}
+
+.placartime .gol{
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: red;
+    font-size: 26pt;
+    font-weight: bolder;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.placartime .gol:hover{
+    color: black;
+}
